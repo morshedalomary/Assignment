@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
-import { MatFileUploadModule } from 'angular-material-fileupload';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -62,7 +61,7 @@ import { HomeComponent } from './home/home.component';
     MatInputModule,
     MatDialogModule,
     MatSelectModule,
-    MatFileUploadModule,
+
     MatListModule
  
   ],

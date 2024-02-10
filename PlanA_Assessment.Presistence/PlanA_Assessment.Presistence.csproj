@@ -1,16 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PlanA_Assessment.Application\PlanA_Assessment.Application.csproj" />
     <ProjectReference Include="..\PlanA_Assessment.Domain\PlanA_Assessment.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migrations\" />
   </ItemGroup>
 
   <ItemGroup>
